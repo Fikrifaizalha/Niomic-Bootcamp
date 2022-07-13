@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Membuat Form</title>
+  </head>
+  <body>
+    <h1>Napak Tilas</h1>
+
+    <p>Form</p>
+    <hr />
+
+    <form>
+      <p>Nama : <input type="text" placeholder="Nama lengkap..." /></p>
+      <p>Username : <input type="text" placeholder="Username..." /></p>
+      <p>Email : <input type="email" placeholder="Your email..." /></p>
+      <p>Password : <input type="password" placeholder="Password..." /></p>
+      <p>Alamat Web : <input type="url" placeholder="Masukan URL Web..." /></p>
+      <p>Tanggal Lahir : <input type="date" /></p>
+      <label> Jenis Kelamin : <input type="radio" /></label>
+      <label> Pria <input type="radio" /> wanita</label>
+      <p>
+        Agama :
+        <select name="Agama">
+          <option value="Islam" selected>Islam</option>
+          <option value="Kristen">Kristen</option>
+          <option value="Budha">Budha</option>
+        </select>
+      </p>
+      <p>Biografi : <textarea name="Alamat" id="alamat " cols="15" rows="2" maxlength="30"></textarea></p>
+      <p>Foto : <img src="logo1.jpg" alt="kopi" height="200" width="200" /></p>
+      <p>Audio : <audio src="sample.mp3" controls></audio></p>
+      <input type="submit" />
+    </form>
+  </body>
+</html>
